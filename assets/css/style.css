@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Space+Grotesk:wght@300&display=swap');
+
 * {
    margin: 0;
    padding: 0;
@@ -5,10 +7,20 @@
 }
 
 body {
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Space Grotesk', sans-serif;
 }
 
+h1 {
+   color: blue;
+   font-family: 'Odibee Sans', cursive;
+}
 
+#logo {
+   float: left;
+   padding: 5%;
+   font-size: 300%;
+   letter-spacing: 3px;
+}
 /* hero image */
 
 #hero-image {
