@@ -18,10 +18,10 @@ h1 {
 }
 
 #logo {
-   float: left;
-   padding-left: 5%;
-   padding-top: 1%;
-   font-size: 300%;
+   float: right;
+   padding-right: 10%;
+   padding-top: 5%;
+   font-size: 400%;
    letter-spacing: 7px;
 }
 
@@ -53,9 +53,13 @@ h1 {
 .active {
    border-bottom: 2px solid blue;
 }
+
+
 /* hero image */
 
 #hero-image {
-   height: 600px;
+   height: 850px;
    width: 100%;
+   background: url('../images/pexels-dietmar-janssen-175353_mfceae\ \(1\).jpg') no-repeat center center;
+   background-size: cover;
 }
