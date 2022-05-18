@@ -8,6 +8,8 @@
 
 body {
    font-family: 'Space Grotesk', sans-serif;
+   color: red;
+   background-color: rgb(231, 251, 244);
 }
 
 h1 {
@@ -17,9 +19,39 @@ h1 {
 
 #logo {
    float: left;
-   padding: 5%;
+   padding-left: 5%;
+   padding-top: 1%;
    font-size: 300%;
-   letter-spacing: 3px;
+   letter-spacing: 7px;
+}
+
+#menu {
+   font-size: 120%;
+   float: right;
+}
+
+#menu, #logo {
+   line-height: 60px;
+}
+
+#menu li {
+   margin-right: 30px;
+   list-style-type: none;
+   float: left;
+}
+
+#menu a {
+   text-decoration: solid;
+   color: blue;
+   font-weight: bold;
+}
+
+#menu a:hover {
+   border-bottom: 2px solid blue;
+}
+
+.active {
+   border-bottom: 2px solid blue;
 }
 /* hero image */
 
