@@ -105,3 +105,26 @@ h1, h2 {
    list-style-position: inside;
    
 }
+
+/* footer */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  
+}
+
+footer >ul >li {
+   display: inline;
+}
+
+footer i {
+   font-size: 150%;
+   color: aliceblue;
+   padding: 1%;
+}
