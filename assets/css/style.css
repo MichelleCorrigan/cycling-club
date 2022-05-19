@@ -111,6 +111,24 @@ h2 {
    list-style-position: inside;
 }
 
+/* days, times and age */
+
+#days-times {
+   height: 400px;
+   text-align: center;
+   font-size: 150%;
+   padding: 5%;
+   line-height: 200%;
+   border-top: 10px solid aliceblue;
+}
+
+#days-times table {
+   border: 5px solid aliceblue;
+   
+   margin-left: auto;
+   margin-right: auto;
+}
+
 /* footer */
 
 footer {
