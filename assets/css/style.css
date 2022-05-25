@@ -121,6 +121,7 @@ h2 {
    padding: 5%;
    line-height: 200%;
    border-top: 10px solid aliceblue;
+   overflow: hidden;
 }
 
 #what-we-do h2 {
@@ -209,23 +210,24 @@ h2 {
  #about-us {
     height: 600px;
     width: 100%;
-    padding-top: 5%;
+    
+    border-bottom: 50px solid aliceblue;
+    overflow: hidden;
  }
  #who-we-are {
     height: 550px;
     width: 100%;
     color:rgb(65, 64, 64);
     font-size: 120%;
-    text-align: right;
-    background-color: rgba(240, 248, 255, .5);
-    float: right;
-    padding-right: 2%;
+    text-align: center;
+    background-color: rgba(240, 248, 255, .8);
+    padding-top: 10%;
+    position: absolute;
  }
 
  #who-we-are h2 {
     font-size: 200%;
     text-align: center;
-    color: ;
  }
 
  #scenic-image {
