@@ -13,15 +13,12 @@ body {
    border-top: 10px solid aliceblue;
 }
 
-h1 {
+h1, h2 {
    color: rgb(15, 15, 82);
-   font-family: 'Odibee Sans', cursive;
-}
-h2 {
-   color: #f16c6b;
    font-family: 'Odibee Sans', cursive;
    letter-spacing: 3px;
 }
+
 
 #logo {
    float: right;
@@ -218,7 +215,7 @@ h2 {
  }
  .signup-form h2 {
     text-align: center;
-    color: #f16c6b;
+    color: aliceblue;
  }
 
  .text-input {
@@ -234,8 +231,8 @@ h2 {
    padding: 15px 32px 15px 32px;
    text-align: center;
    font-size: 100%;
-   background-color: #f16c6b;
-   color: #fafafa;
+   background-color: rgb(15, 15, 82);
+   color: aliceblue;
    display: block;
 }
 
@@ -318,10 +315,13 @@ footer i {
    }
    #menu {
       width: 33%;
-      line-height: 25px;
+      line-height: 44px;
+      border-bottom: 4px;
    }
    #menu li {
       width: 100%;
+      padding: 4px;
+      text-decoration: none;
    }
    #what-we-do {
       height: 800px;
