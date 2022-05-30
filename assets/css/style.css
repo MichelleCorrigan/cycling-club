@@ -121,7 +121,6 @@ h2 {
    padding: 5%;
    line-height: 200%;
    border-top: 10px solid aliceblue;
-   overflow: hidden;
 }
 
 #what-we-do h2 {
@@ -197,13 +196,7 @@ h2 {
  
  
  
- /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
- @media screen and (max-width: 600px) {
-   .column {
-     flex: 100%;
-     max-width: 100%;
-   }
- }
+ 
  
  /* About Us page */
 
@@ -263,3 +256,36 @@ footer i {
    color: aliceblue;
    padding: 1%;
 }
+
+/* Responsive layout */
+@media (min-width: 481px) and (max-width: 767px) {
+   
+   #what-we-do {
+      height: fit-content;
+   } 
+
+ }
+
+ @media (min-width: 320px) and (max-width: 480px) {
+   
+   #cover-text {
+      right: 10px;
+   }
+   #menu {
+      width: 33%;
+      line-height: 25px;
+   }
+   #menu li {
+      width: 100%;
+   }
+   #what-we-do {
+      height: 800px;
+   }
+   
+   #who-we-are {
+      height: 650px;
+      
+   }
+ }
+
+ 
