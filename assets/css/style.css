@@ -13,10 +13,14 @@ body {
    border-top: 10px solid aliceblue;
 }
 
-h1,
-h2 {
+h1 {
    color: rgb(15, 15, 82);
    font-family: 'Odibee Sans', cursive;
+}
+h2 {
+   color: #f16c6b;
+   font-family: 'Odibee Sans', cursive;
+   letter-spacing: 3px;
 }
 
 #logo {
@@ -199,13 +203,41 @@ h2 {
  .form-section {
     height: 800px;
     clear: both;
+    border-top: 50px;
+
  }
  .signup-form {
-    background-color: rgba(15, 15, 82, .8);
-    width: 80%;
+    background-color: rgba(15, 15, 82, .7);
+    max-width: 50%;
     color: aliceblue;
+    font-size: 150%;
+    padding: 25px;
+    margin-left: 15%;
+    margin-top: 7%;
+    
+ }
+ .signup-form h2 {
+    text-align: center;
+    color: #f16c6b;
  }
 
+ .text-input {
+   width: 100%;
+   height: 25px;
+   margin: 5px 0 20px 0;
+   border: 1px solid aliceblue;
+   border-radius: 2px;
+ }
+ .join-button {
+   margin-top: 20px;
+   border-radius: 2px;
+   padding: 15px 32px 15px 32px;
+   text-align: center;
+   font-size: 100%;
+   background-color: #f16c6b;
+   color: #fafafa;
+   display: block;
+}
 
  
  /* About Us page */
