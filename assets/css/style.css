@@ -194,9 +194,19 @@ h2 {
    width: 100%;
  }
  
+ /* Form */
  
- 
- 
+ .form-section {
+    height: 800px;
+    clear: both;
+ }
+ .signup-form {
+    background-color: rgba(15, 15, 82, .8);
+    width: 80%;
+    color: aliceblue;
+ }
+
+
  
  /* About Us page */
 
@@ -230,6 +240,9 @@ h2 {
     background-size: cover;
     
  }
+
+ 
+
 
 
  

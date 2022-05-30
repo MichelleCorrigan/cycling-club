@@ -37,9 +37,27 @@
         </a>
         
     </header>
-        <section>
+        <section class="form-section">
             <form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
-                <h2></h2>
+                <h2>Sign Up With Us</h2>
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="full_name" class="text-input" required>
+
+                <label for="cname">Child's Name</label>
+                <input type="text" id="cname" name="child's_name" class="text-input" required>
+
+                <label for="age">Child's Age</label>
+                <input type="text" id="age" name="age" list="age_groups" required>
+                    <datalist id="age_groups">
+                        <option value="3-5yrs"></option>
+                        <option value="6-9yrs"></option>
+                        <option value="10yrs +"></option>
+                    </datalist>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" class="text-input" required>
+
+                <input type="submit">
             </form>
         </section>
 
