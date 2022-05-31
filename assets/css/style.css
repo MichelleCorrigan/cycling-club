@@ -117,7 +117,7 @@ h1, h2 {
 
 #what-we-do {
    height: 400px;
-   text-align: center;
+   text-align: left;
    font-size: 150%;
    padding: 5%;
    line-height: 200%;
@@ -126,6 +126,8 @@ h1, h2 {
 
 #what-we-do h2 {
    font-size: 200%;
+   padding-left: 7%;
+   padding-bottom: 2%;
 }
 
 #what-we-do ul {
@@ -145,6 +147,9 @@ h1, h2 {
 
 #days-times h2 {
    font-size: 200%;
+   text-align: left;
+   padding-left: 7%;
+   padding-bottom: 2%;
 }
 
 #days-times table {
