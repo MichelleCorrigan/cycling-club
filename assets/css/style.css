@@ -204,20 +204,24 @@ h1, h2 {
  /* Form */
  
  .form-section {
-    height: 800px;
+    height: 650px;
     clear: both;
     border-top: 50px;
+    background: url('../images/3-in-park-pexels-quang-nguyen-vinh-2131791_xl1rmt.webp') no-repeat center center;
+    background-size: cover;
+    
 
  }
  .signup-form {
     background-color: rgba(15, 15, 82, .7);
-    max-width: 50%;
+    max-width: 30%;
     color: aliceblue;
     font-size: 150%;
     padding: 25px;
-    margin-left: 15%;
-    margin-top: 7%;
-    
+    margin-left: 12%;
+    margin-top: 3%;
+    position: absolute;
+    float: left;
  }
  .signup-form h2 {
     text-align: center;
@@ -355,6 +359,9 @@ footer i {
    #who-we-are {
       font-size: 100%;
    }
+   .signup-form {
+      max-width: 40%;
+   }
  }
 
  @media (min-width: 320px) and (max-width: 480px) {
@@ -388,6 +395,9 @@ footer i {
       margin-left: 0;
       padding-top: 10px;
       
+   }
+   .signup-form {
+      max-width: 50%;
    }
  }
 
