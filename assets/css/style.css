@@ -108,7 +108,7 @@ h1, h2 {
    padding-top: 30px;
    padding-left: 10px;
 
-   bottom: 550px;
+   bottom: 50%;
    right: 175px;
    position: absolute;
 }
@@ -322,22 +322,37 @@ footer i {
       height: 450px;
 }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   #logo {
+      line-height: 75px;
+}
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
-   
+   #logo {
+      text-align: center;
+   }
+
    #what-we-do {
       height: fit-content;
    } 
-
+   #cover-text {
+      right: 10px;
+   }
  }
 
  @media (min-width: 320px) and (max-width: 480px) {
-   
+   #logo {
+      line-height: 55px;
+      text-align: center;
+   }
    #cover-text {
       right: 10px;
    }
    #menu {
       width: 33%;
-      line-height: 44px;
+      line-height: 35px;
       border-bottom: 4px;
    }
    #menu li {
@@ -346,7 +361,7 @@ footer i {
       text-decoration: none;
    }
    #what-we-do {
-      height: 800px;
+      height: 850px;
    }
    
    #who-we-are {
