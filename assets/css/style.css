@@ -38,6 +38,7 @@ h1, h2 {
 #menu,
 #logo {
    line-height: 80px;
+   padding-bottom: 5px;
 }
 
 #menu li {
@@ -251,22 +252,25 @@ h1, h2 {
  }
  #who-we-are {
     height: 650px;
-    width: 46%;
+    width: 100%;
     color:rgb(65, 64, 64);
     font-size: 120%;
     text-align: center;
-    background-color: rgba(240, 248, 255, .6);
+    background-color: rgba(240, 248, 255, .7);
     padding-top: 10px;
     position: absolute;
-    margin-left: 27%;
-   
-    
+    /* margin-left: 27%; */
 
  }
 
  #who-we-are h2 {
     font-size: 200%;
-    text-align: center;
+ }
+
+ #who-we-are h2, p {
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 20px;
  }
 
  #scenic-image {
@@ -322,13 +326,13 @@ footer i {
 }
    #hero-outer {
       height: 450px;
-}
+   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
    #logo {
       line-height: 75px;
-}
+   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -339,8 +343,17 @@ footer i {
    #what-we-do {
       height: fit-content;
    } 
+   
    #cover-text {
       right: 10px;
+   }
+   #who-we-are h2, p {
+      width: 75%;
+      margin-left: 12.5%;
+      padding-top: 20px;
+   }
+   #who-we-are {
+      font-size: 100%;
    }
  }
 
@@ -368,6 +381,12 @@ footer i {
    
    #who-we-are {
       height: 650px;
+      font-size: 100%;
+   }
+   #who-we-are h2, p {
+      width: 100%;
+      margin-left: 0;
+      padding-top: 10px;
       
    }
  }
