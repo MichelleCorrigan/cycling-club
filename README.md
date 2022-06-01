@@ -4,7 +4,7 @@ The Corrigan's Cycling Club website is for parents and children looking for a fu
 Users of this website will be able to find all the information they need to know about the club: Services offered, meeting times, a sign-up form and a quick introduction about the club. It will include a gallery page with suppporting images of current members practicing their skills and enjoying the activities.
 
 <p align="center">
-<img src="![](vscode-remote://ssh-remote%2Bmichellecor-cyclingclub-t4ueko812ip/workspace/cycling-club/assets/images/responsive-screenshot.png)" width="500" height="auto" alt="Screens mockup">
+<img src="./assets/images/readme-images/responsive-screenshot.png" width="500" height="auto" alt="Screens mockup">
 </p>
  
 
@@ -17,7 +17,9 @@ Users of this website will be able to find all the information they need to know
   - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, Sign Up page and About Us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](![](vscode-remote://ssh-remote%2Bmichellecor-cyclingclub-t4ueko812ip/workspace/cycling-club/assets/images/nav-bar-screenshot.png))
+<p align="center">
+<img src="./assets/images/readme-images/nav-bar-screenshot.png" width="500" height="auto" alt="Nav bar">
+</p>
 
 - __The landing page image__
 
@@ -25,35 +27,45 @@ Users of this website will be able to find all the information they need to know
   - This section introduces the user to Corrigan's Cycling Club with an eye catching animation to grab their attention.
   - The user can quickly see it's a child-friendly club.  
 
-![Landing Page](![](vscode-remote://ssh-remote%2Bmichellecor-cyclingclub-t4ueko812ip/workspace/cycling-club/assets/images/readme-images/landing-page-screenshot.png))
+<p align="center">
+<img src="./assets/images/readme-images/landing-page-screenshot.png" width="500" height="auto" alt="landing page">
+</p>
 
 - __What We Do Section__
 
   - The 'What We Do' section will allow the user to see the services available from the club.
   - This user will see the value of signing themselves or their child up for the meetups. This should encourage the user to feel confident about joining.
 
-![What We Do](![](vscode-remote://ssh-remote%2Bmichellecor-cyclingclub-t4ueko812ip/workspace/cycling-club/assets/images/readme-images/what-we-do-screenshot.png))
+<p align="center">
+<img src="./assets/images/readme-images/what-we-do-screenshot.png" width="500" height="auto" alt="What We Do">
+</p>
 
 - __Come Join Us section__
 
   - This section will allow the user to see exactly when the meetups will happen, for which age groups and for how long. 
   - This section can be updated when these times change during different times of the year to keep the user up to date. 
 
-![Come Join Us](![](vscode-remote://ssh-remote%2Bmichellecor-cyclingclub-t4ueko812ip/workspace/cycling-club/assets/images/readme-images/join-us-section.png))
+<p align="center">
+<img src="./assets/images/readme-images/join-us-screenshot.png" width="500" height="auto" alt="Come Join Us">
+</p>
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Corrigan's Cycling Club. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected with the club and other members via social media.
 
-![Footer](![](vscode-remote://ssh-remote%2Bmichellecor-cyclingclub-t4ueko812ip/workspace/cycling-club/assets/images/readme-images/footer-screenshot.png))
+<p align="center">
+<img src="./assets/images/readme-image/footer-screenshot.png" width="500" height="auto" alt="Footer">
+</p>
 
 - __Gallery__
 
   - The gallery will provide the user with supporting images to see what the weekly meet ups and 'Fun Family Days' with a cycle and a picnic will look like. 
   - This section is valuable to the user as they will be able to easily see all the fun, safety and learning aspects of the club. 
 
-![Gallery](![](vscode-remote://ssh-remote%2Bmichellecor-cyclingclub-t4ueko812ip/workspace/cycling-club/assets/images/readme-images/gallery-screenshot.png))
+<p align="center">
+<img src="./assets/images/readme-images/gallery-screenshot.png" width="500" height="auto" alt="Gallery">
+</p>
 
 - __The Sign Up Page__
 
