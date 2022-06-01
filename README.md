@@ -55,7 +55,7 @@ Users of this website will be able to find all the information they need to know
   - The footer is valuable to the user as it encourages them to keep connected with the club and other members via social media.
 
 <p align="center">
-<img src="./assets/images/readme-image/footer-screenshot.png" width="500" height="auto" alt="Footer">
+<img src="./assets/images/readme-images/footer-screenshot.png" width="500" height="auto" alt="Footer">
 </p>
 
 - __Gallery__
