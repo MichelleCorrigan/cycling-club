@@ -70,10 +70,12 @@ Users of this website will be able to find all the information they need to know
 - __The Sign Up Page__
 
   - This page will allow the user to get their child signed up to Corrigan's Cycling Club. The user will be asked to submit their full name, email address, child's name and child's age-group. 
+  - Users will be taken to a Thank-you page after signing up.
 
 <p align="center">
 <img src="./assets/images/readme-images/sign-up-screenshot.png" width="500" height="auto" alt="Sign up page">
 </p>
+
 
 - __The About Us Page__
 
@@ -86,7 +88,7 @@ Users of this website will be able to find all the information they need to know
 
 ### Features Left to Implement
 
-- Another feature idea
+- The About Us page could include a small profile piece of each instructor within the club, with an accompanying photo. The user and their child would be reassured about who they were going to meet. 
 
 ## Testing 
 
@@ -94,14 +96,13 @@ Users of this website will be able to find all the information they need to know
 
 - HTML
   - An error and a warning were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - The font awesome script source was moved inside the body on all html files.
+  - A div element with id=gallery was added to the gallery page.
+  - When the code was passed through the W3C validator again no errors were found.
 
 <p align="center">
 <img src="./assets/images/readme-images/error-html.png" width="500" height="auto" alt="Error message">
 </p>
-
-  - The font awesome script source was moved inside the body on all html files.
-  - A div element with id=gallery was added to the gallery page.
-  - When the code was passed through the W3C validator again no errors were found.
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
@@ -112,20 +113,24 @@ Users of this website will be able to find all the information they need to know
 
 ### Compatibility testing
 
-  - Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools.
-
+  - Site was tested across multiple virtual mobile devices. I checked all supported devices in Chrome developer tools.
+  - Site was tested on several browsers including Chrome, Microsoft Edge, Safari and Firefox.
   - I tested on hardware devices such as: HP Pavilion R3 with Windows OS's, Samsung Galaxy A32 smartphone with Android 11, IPhone Xs with iOS 15.4.1
 
 ### Accessibility Testing
 
-  - I tested the colors and fonts chosen on lighthouse in chrome devtools to make sure they wer easy to read.
+  - I tested the colors and fonts chosen on lighthouse in chrome devtools to make sure they were easy to read.
 
 <p align="center">
 <img src="./assets/images/readme-images/lighthouse-report.png" width="500" height="auto" alt="Lighthouse report">
 </p>
 
+### Bugs
+  - When I renamed the contact.html file to signup.html the link on the home page wasn't working.
+  - I deleted the link on the home page and copy and pasted the link from the about.html page and this fixed the problem.
+  
 ### Unfixed Bugs
-  - 
+  - Unable to link custom 404 error page to site.
 
 ## Deployment 
 
