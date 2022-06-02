@@ -297,6 +297,7 @@ footer i {
    padding: 1%;
 }
 
+
 /* Responsive layout */
 
 @media (min-width: 1281px) {
@@ -351,7 +352,7 @@ footer i {
 
  @media (min-width: 320px) and (max-width: 480px) {
    #logo {
-      line-height: 55px;
+      line-height: 67px;
       text-align: center;
    }
    #cover-text {
