@@ -132,10 +132,10 @@ h1, h2 {
 }
 
 #what-we-do ul {
-   list-style-position: inside;
+   list-style-position: outside;
 }
 
-/* days, times and age */
+/* Come Join Us; days, times and age */
 
 #days-times {
    height: 850px;
@@ -158,11 +158,12 @@ h1, h2 {
    float: left;
    margin-left: 5%;
    margin-top: 5%;
-   width: 40%;
+   width: 50%;
    height: 250px;
    color: aliceblue;
    background-color: rgba(15, 15, 82, .5);
 }
+
 
 #bottom-image {
    height: 750px;
@@ -259,7 +260,7 @@ h1, h2 {
     width: 100%;
     color:rgb(65, 64, 64);
     font-size: 120%;
-    text-align: center;
+    text-align: left;
     background-color: rgba(240, 248, 255, .7);
     padding-top: 10px;
     position: absolute;
@@ -362,6 +363,9 @@ footer i {
    .signup-form {
       max-width: 40%;
    }
+   #days-times table {
+      width: 80%;
+   }
  }
 
  @media (min-width: 320px) and (max-width: 480px) {
@@ -398,6 +402,12 @@ footer i {
    }
    .signup-form {
       max-width: 50%;
+   }
+   #days-times table {
+      width: 90%;
+   }
+   #days-times table tr {
+      line-height: 25px;
    }
  }
 
