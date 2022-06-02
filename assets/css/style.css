@@ -240,6 +240,13 @@ h1, h2 {
    color: aliceblue;
    display: block;
 }
+/* Thank you message after signing up */
+#thank-you {
+   height: 400px;
+   clear: both;
+   text-align: center;
+   padding-top: 150px;
+}
 
  /* About Us page */
  #about-us {
