@@ -19,7 +19,6 @@ h1, h2 {
    letter-spacing: 3px;
 }
 
-
 #logo {
    float: right;
    padding-right: 10%;
@@ -28,7 +27,6 @@ h1, h2 {
 }
 
 /* navigation menu */
-
 #menu {
    font-size: 120%;
    float: left;
@@ -61,9 +59,7 @@ h1, h2 {
    border-bottom: 2px solid rgb(15, 15, 82);
 }
 
-
 /* hero image and cover text */
-
 #hero-outer {
    height: 700px;
     width: 100%;
@@ -98,6 +94,7 @@ h1, h2 {
    text-align: center;
 }
 
+/* Cover text */
 #cover-text {
    font-size: 110%;
    letter-spacing: 3px;
@@ -115,7 +112,6 @@ h1, h2 {
 }
 
 /* what we do */
-
 #what-we-do {
    height: 400px;
    text-align: left;
@@ -136,7 +132,6 @@ h1, h2 {
 }
 
 /* Come Join Us; days, times and age */
-
 #days-times {
    height: 850px;
    text-align: center;
@@ -164,14 +159,13 @@ h1, h2 {
    background-color: rgba(15, 15, 82, .5);
 }
 
-
 #bottom-image {
    height: 750px;
    width: 100%;
-   background: url('../images/2-girls-cycling.jpg') no-repeat;
-   
+   background: url('../images/2-girls-cycling.jpg') no-repeat;  
 }
 
+/* Gallery page */
 #gallery {
    clear: both;
    column-count: 2;
@@ -202,17 +196,15 @@ h1, h2 {
    width: 100%;
  }
  
- /* Form */
- 
+ /* Sign Up page */
  .form-section {
     height: 650px;
     clear: both;
     border-top: 50px;
     background: url('../images/3-in-park-pexels-quang-nguyen-vinh-2131791_xl1rmt.webp') no-repeat center center;
     background-size: cover;
-    
-
  }
+
  .signup-form {
     background-color: rgba(15, 15, 82, .7);
     max-width: 30%;
@@ -224,6 +216,7 @@ h1, h2 {
     position: absolute;
     float: left;
  }
+
  .signup-form h2 {
     text-align: center;
     color: aliceblue;
@@ -236,6 +229,7 @@ h1, h2 {
    border: 1px solid aliceblue;
    border-radius: 2px;
  }
+
  .join-button {
    margin-top: 20px;
    border-radius: 2px;
@@ -247,14 +241,13 @@ h1, h2 {
    display: block;
 }
 
- 
  /* About Us page */
-
  #about-us {
     height: 650px;
     width: 100%;
     overflow: hidden;
  }
+
  #who-we-are {
     height: 650px;
     width: 100%;
@@ -264,8 +257,6 @@ h1, h2 {
     background-color: rgba(240, 248, 255, .7);
     padding-top: 10px;
     position: absolute;
-    /* margin-left: 27%; */
-
  }
 
  #who-we-are h2 {
@@ -283,18 +274,9 @@ h1, h2 {
     height: 600px;
     background: url('../images/greenway-pexels-johannes-plenio-1165981_gydpqc.webp') no-repeat center center;
     background-size: cover;
-    
  }
 
- 
-
-
-
- 
- 
-
 /* footer */
-
 footer {
    position: fixed;
    left: 0;
@@ -325,6 +307,7 @@ footer i {
       height: 550px;
 }
 }
+
 @media (min-width: 1025px) and (max-width: 1280px) {
    #hero-image {
       height: 600px;
@@ -344,11 +327,9 @@ footer i {
    #logo {
       text-align: center;
    }
-
    #what-we-do {
       height: fit-content;
    } 
-   
    #cover-text {
       right: 10px;
    }
@@ -389,7 +370,6 @@ footer i {
    #what-we-do {
       height: 850px;
    }
-   
    #who-we-are {
       height: 650px;
       font-size: 100%;
@@ -398,7 +378,6 @@ footer i {
       width: 100%;
       margin-left: 0;
       padding-top: 10px;
-      
    }
    .signup-form {
       max-width: 50%;
@@ -408,6 +387,9 @@ footer i {
    }
    #days-times table tr {
       line-height: 25px;
+   }
+   #days-times table td {
+      border: 1px solid;
    }
  }
 
