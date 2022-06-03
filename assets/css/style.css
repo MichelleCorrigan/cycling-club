@@ -304,6 +304,13 @@ footer i {
    padding: 1%;
 }
 
+#error-message {
+   clear: both;
+   height: 200px;
+   text-align: center;
+   padding: 50px;
+
+}
 
 /* Responsive layout */
 
