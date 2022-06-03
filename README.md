@@ -141,6 +141,13 @@ Users of this website will be able to find all the information they need to know
 
 The live link can be found here - https://michellecorrigan.github.io/cycling-club/
 
+- To run localy:
+
+  1. Log in to GitHub and click on repository to download [cycling-club](github.com/MichelleCorrigan/cycling-club)
+  2. Select Code and click Download the ZIP file.
+  3. After download you can extract the file and use it in your local environment
+- Alternatively you can Clone or Fork this repository [cycling-club](github.com/MichelleCorrigan/cycling-club) into your github account.
+
 ## Technologies used
 ### HTML5
 As a structure language.
