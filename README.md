@@ -89,6 +89,7 @@ Users of this website will be able to find all the information they need to know
 ### Features Left to Implement
 
 - The About Us page could include a small profile piece of each instructor within the club, with an accompanying photo. The user and their child would be reassured about who they were going to meet. 
+- More media queries could be done to improve the design on smaller screens.
 
 ## Testing 
 
