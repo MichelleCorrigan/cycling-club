@@ -126,11 +126,8 @@ Users of this website will be able to find all the information they need to know
 </p>
 
 ### Bugs
-  - When I renamed the contact.html file to signup.html the link on the home page wasn't working.
-  - I deleted the link on the home page and copy and pasted the link from the about.html page and this fixed the problem.
-  
-### Unfixed Bugs
-  - Unable to link custom 404 error page to site.
+  - When I renamed the contact.html file to signup.html the link on the home page wasn't working. I deleted the link on the home page and copy and pasted the link from the about.html page and this fixed the problem.
+  - Unable to link custom 404 error page to site. I realised the file was wrongly named, I changed it from 404error.html to 404.html and this fixed the problem.
 
 ## Deployment 
 
